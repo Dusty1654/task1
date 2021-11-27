@@ -10,5 +10,9 @@ public class Main {
                 }});
 
         System.out.println(cat.toString());
+
+        System.out.println(Calculator.sum(2,2));
+        System.out.println(Calculator.multiply(3.5f, 2));
+        System.out.println(Calculator.divide(16, 4));
     }
 }
