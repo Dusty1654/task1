@@ -14,11 +14,11 @@ public class Main {
 
     public static String longTestString(){
         String line = "";
-        line = line + "line 1";
-        line = line + "line 2";
-        line = line + "line 3";
-        line = line + "line 4";
-        line = line + "line 5";
+        line = line + "line 1\n";
+        line = line + "line 2\n";
+        line = line + "line 3\n";
+        line = line + "line 4\n";
+        line = line + "line 5\n";
         return line;
     }
 }
