@@ -8,5 +8,11 @@ public class Main {
                 new ArrayList<String>() {{
                     add("Писать Дасти-Мордасти");
                 }});
+
+        System.out.println(longTestString());
+    }
+
+    public static String longTestString(){
+        // напишите ваш код здесь
     }
 }
