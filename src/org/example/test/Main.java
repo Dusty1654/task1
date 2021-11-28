@@ -19,6 +19,18 @@ public class Main {
         line = line + "line 3\n";
         line = line + "line 4\n";
         line = line + "line 5\n";
-        return line;
+
+        StringBuilder s = new StringBuilder();
+        s.append("line 1\n");
+        s.append("line 2\n");
+        s.append("line 3\n");
+        s.append("line 4\n");
+        s.append("line 5\n");
+        s.append("line 6\n");
+        s.append("line 7\n");
+        for(int i = 0; i < 2000; i++){
+            
+        }
+        return s.toString();
     }
 }
