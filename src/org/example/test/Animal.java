@@ -2,11 +2,10 @@ package org.example.test;
 
 import java.util.List;
 
-public class Animal{
+public class Animal {
     private String name;
     private String owner;
     private List<String> habits;
-
 
     public Animal(String name, String owner, List<String> habits) {
         this.name = name;
